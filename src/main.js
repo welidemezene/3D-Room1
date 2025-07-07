@@ -326,14 +326,15 @@ manager.onLoad = function () {
   function handleEnter() {
     if (isDisabled) return;
 
-    loadingScreenButton.style.cursor = "default";
-    loadingScreenButton.style.border = "8px solid #6e5e9c";
-    loadingScreenButton.style.background = "#ead7ef";
-    loadingScreenButton.style.color = "#6e5e9c";
-    loadingScreenButton.style.boxShadow = "none";
-    loadingScreenButton.textContent = "~ 안녕하세요 ~";
-    loadingScreen.style.background = "#ead7ef";
-    isDisabled = true;
+   loadingScreenButton.style.cursor = "default";
+loadingScreenButton.style.border = "6px solid #1e1e2f"; // deep blue-black
+loadingScreenButton.style.background = "#ffffff";       // white
+loadingScreenButton.style.color = "#1e1e2f";            // matching text
+loadingScreenButton.style.boxShadow = "none";
+loadingScreenButton.textContent = "Welcome to My 3D Experience";
+loadingScreen.style.background = "#f2f2f2";             // soft gray
+isDisabled = true;
+
 
     toggleFavicons();
     backgroundMusic.play();
