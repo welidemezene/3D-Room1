@@ -1,4 +1,4 @@
-# 💜 수아's Award-Winning Room Folio 💜
+# 💜 Interactive 3D Room 💜
 
 **[Live site](http://sooahs-room-folio.com/)**
 
